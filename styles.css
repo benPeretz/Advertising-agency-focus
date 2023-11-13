@@ -38,8 +38,7 @@
 }
 
 .text-title h1 {
-    /* font-family: 'Martian Mono', monospace; */
-    /* font-family: 'Young Serif', serif; */
+
     font-family: 'Varela Round', sans-serif;
     font-size: 5rem;
 
@@ -148,6 +147,9 @@ h6 {
 .icons {
     font-size: 3rem;
 }
+.icons:hover{
+    font-size: 3.2rem;
+}
 
 .content-part h2,
 h5 {
@@ -164,6 +166,14 @@ h5 {
     background-position: center;
     background-size: cover;
 }
+.section-contact-us h4{
+color: #bf9359;
+
+}
+.section-contact-us h4:hover{
+    color: #f5a73f;
+    
+    }
 
 
 
@@ -172,6 +182,9 @@ h5 {
 
     .icons {
         font-size: 2.5rem;
+    }
+    .icons:hover {
+        font-size: 2.6rem;
     }
 
     .section-influencer h4 {
@@ -233,6 +246,9 @@ h5 {
     .icons {
         font-size: 1.5rem;
     }
+    .icons:hover {
+        font-size: 1.6rem;
+    }
 
     .section-influencer h4 {
 
@@ -251,8 +267,19 @@ h5 {
 
 
 }
-@media (max-width:760px)and (min-width:319px) {
+@media (max-width:760px)and (min-width:250px) {
 
+    .section-top{
+        height: 50vh;
+    }
+
+    .text-title h1{
+        font-size: 3rem;
+    }
+    .text-title h2{
+        font-size: 1.5rem;
+    }
+    
     .influencer-content {
 
         display: grid;
@@ -295,11 +322,19 @@ h5 {
 
     .icons {
         font-size: 1.5rem;
+        
+    }
+    .icons:hover {
+        font-size: 1.6rem;
     }
 
     .section-influencer h4 {
 
         font-size: 1.2rem;
+    }
+    .section-influencer h1 {
+
+        font-size: 2.5rem;
     }
 
     .section-influencer h6 {
@@ -314,6 +349,15 @@ h5 {
     .row{
         margin-bottom:1rem ;
     }
+
+    .section-contact-us h4{
+        font-size: 1rem;
+    }
+    .section-contact-us h1{
+        font-size: 2rem;
+    }
+
+
 
 
 }
